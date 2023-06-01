@@ -17,6 +17,7 @@ namespace NelioProjeto1
             int Idade = int.Parse(Console.ReadLine());
             Console.WriteLine("Qual sua graduação? ");
             string Graduacao = Console.ReadLine();
+            Console.WriteLine("-----------------------------------------------------------");
             Console.WriteLine("Seu nome é: " + nomeCompleto + " você tem " + Idade + " anos " + " é vejo que você cursa " + Graduacao);
 
             Console.ReadKey();
